@@ -22,7 +22,7 @@
 const $ = new Env('百果园')
 $.COOKIES_KEY = 'mxl_sign_pagoda'
 
-const users = $.getData($.COOKIES_KEY);
+const users = $.getdata($.COOKIES_KEY);
 $.users = users ? JSON.parse(users) : {};
 
 !(async () => {
