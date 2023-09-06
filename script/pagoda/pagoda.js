@@ -11,7 +11,7 @@ $.openIds = Object.keys($.users) || [];
     $.desc = '请获取根据说明获取Cookie，点击前往';
     $.msg($.name, $.subt, $.desc, {
       'open-url':
-        'https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js',
+        'https://raw.githubusercontent.com/maxueli/quanx/main/script/pagoda/pagoda.cookie.js',
     });
 
     $.done();
@@ -26,7 +26,7 @@ $.openIds = Object.keys($.users) || [];
   .catch((e) => $.logErr(e))
   .finally(() => $.done())
 
-function signwx(opt) {
+function signwx() {
   return new Promise((resolve) => {
     // const opts = JSON.parse($.getdata($.COOKIES_KEY))
     $.get($.user, (err, resp, data) => {

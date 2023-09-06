@@ -6,16 +6,16 @@
  * hostname = wx-mini.pagoda.com.cn
  *
  * # Surge
- * Rewrite: 百果园 = type=http-request,pattern=^https:\/\/wx-mini.pagoda.com.cn\/api\/v1\/wxmini\/signIn\/customer,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.cookie.js
- * Tasks: 百果园 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js,wake-system=true
+ * Rewrite: 百果园 = type=http-request,pattern=^https:\/\/wx-mini.pagoda.com.cn\/api\/v1\/wxmini\/signIn\/customer,script-path=https://raw.githubusercontent.com/maxueli/quanx/main/script/pagoda/pagoda.cookie.js
+ * Tasks: 百果园 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/maxueli/quanx/main/script/pagoda/pagoda.js,wake-system=true
  *
  * # QuanX
- * ^https:\/\/wx-mini.pagoda.com.cn\/api\/v1\/wxmini\/signIn\/customer url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.cookie.js
- * 10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js, tag=百果园
+ * ^https:\/\/wx-mini.pagoda.com.cn\/api\/v1\/wxmini\/signIn\/customer url script-request-header https://raw.githubusercontent.com/maxueli/quanx/main/script/pagoda/pagoda.cookie.js
+ * 10 0 * * * https://raw.githubusercontent.com/maxueli/quanx/main/script/pagoda/pagoda.js, tag=百果园
  *
  * # Loon
- * http-request ^https:\/\/wx-mini.pagoda.com.cn\/api\/v1\/wxmini\/signIn\/customer script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.cookie.js
- * cron "10 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js
+ * http-request ^https:\/\/wx-mini.pagoda.com.cn\/api\/v1\/wxmini\/signIn\/customer script-path=https://raw.githubusercontent.com/maxueli/quanx/main/script/pagoda/pagoda.cookie.js
+ * cron "10 0 * * *" script-path=https://raw.githubusercontent.com/maxueli/quanx/main/script/pagoda/pagoda.js
  *
  */
 
