@@ -74,6 +74,7 @@ async function mbSearch() {
 				Cookie: $.mb_cookie,
 			},
 		};
+		console.log("mbSearch-option", JSON.stringify(options));
 		return $.http.get(options).then(
 			(resp) => {
 				$.log("🎉mb:" + resp.statusCode + " " + rd);
@@ -113,6 +114,7 @@ async function pcSearch() {
 				Cookie: $.pc_cookie,
 			},
 		};
+		console.log("pcSearch-option", JSON.stringify(options));
 		return $.http.get(options).then(
 			(resp) => {
 				$.log("🎉pc:" + resp.statusCode + " " + rd);
