@@ -74,7 +74,8 @@ async function mbSearch() {
 				Cookie: $.mb_cookie,
 			},
 		};
-		console.log("mbSearch-option", JSON.stringify(options));
+		console.log("mbSearch-option-url", `https://${$.host}/search?q=${rd}`);
+		console.log("mbSearch-option-cookie", $.mb_cookie);
 		return $.http.get(options).then(
 			(resp) => {
 				$.log("🎉mb:" + resp.statusCode + " " + rd);
@@ -114,7 +115,8 @@ async function pcSearch() {
 				Cookie: $.pc_cookie,
 			},
 		};
-		console.log("pcSearch-option", JSON.stringify(options));
+		console.log("pcSearch-option-url", `https://${$.host}/search?q=${rd}`);
+		console.log("pcSearch-option-cookie", $.pc_cookie);
 		return $.http.get(options).then(
 			(resp) => {
 				$.log("🎉pc:" + resp.statusCode + " " + rd);
