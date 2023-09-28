@@ -1,0 +1,28 @@
+{
+	"id": "app.sub",
+	"name": "Sliverkiss应用订阅",
+	"author": "",
+	"icon": "",
+	"repo": "https://github.com/Sliverkiss",
+	"apps": [
+		{
+			"id": "hgds",
+			"name": "哈根达斯签到",
+			"desc_html": "⚠使用说明</br>详情【】",
+			"icons": [""],
+			"keys": ["hgds_data"],
+			"settings": [
+				{
+					"id": "hgds_data",
+					"name": "hgds_data",
+					"val": "",
+					"type": "text",
+					"desc": "打开抓包，点击签到，抓https://haagendazs.smarket.com.cn/v1/api/wxapp/daily/signIn请求体的openId、sessionKey和unionId，分别用#连接,如openId#sessionKey#unionId,填写到hgds_data"
+				}
+			],
+			"author": "@Sliverkiss",
+			"repo": "",
+			"script": "https://github.com/Sliverkiss/GoodNight/blob/master/Script/hgds.js?raw=true"
+		}
+	]
+}
