@@ -12,9 +12,10 @@ hostname = taurus.dmall.com
 
 *******************************/
 
-var body = $response.body;
-console.log($response);
-console.log("body", typeof body);
+var body = $response.body
+	.replace(/friendsCardFlag\\":\d+/g, 'friendsCardFlag\\":true')
+	.replace(/memberCardType\\":\d+/g, 'memberCardType\\":"PERSON"');
 
-// .replace(/piece\\":\d+/g,'piece\\":888888')
-// $done(body);
+console.log("body", body, typeof body);
+
+$done(body);
