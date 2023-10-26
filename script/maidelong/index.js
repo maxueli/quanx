@@ -14,7 +14,7 @@ hostname = taurus.dmall.com
 
 var body = $response.body;
 console.log($response);
-console.log(body);
-// .replace(/diamond\\":\d+/g,'diamond\\":999999')
+console.log("body", typeof body);
+
 // .replace(/piece\\":\d+/g,'piece\\":888888')
 // $done(body);
