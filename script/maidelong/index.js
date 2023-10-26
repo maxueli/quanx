@@ -19,7 +19,7 @@ var body = $response.body
 	.replace(/friendsCardFlag\\":\d+/g, 'friendsCardFlag\\":true')
 	.replace(/memberCardType\\":\d+/g, 'memberCardType\\":"PERSON"');
 $.msg("麦德龙", "重写", $response.body.data);
-// console.log("body", body);
+console.log("body", $response.body.code);
 
 $done({ body });
 // prettier-ignore
