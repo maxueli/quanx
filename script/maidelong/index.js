@@ -17,13 +17,14 @@ $.KEY_sign = "maxueli_sign_maidelong";
 $.mdl_body = null;
 
 var body = JSON.parse($response.body);
-$.msg("麦德龙", $response.body);
-console.log(JSON.parse($response.body));
+$.msg("麦德龙", body.data);
 body?.data.forEach((item) => {
+	console.log(item);
 	item.defaultFlag = true;
 	item.friendsCardFlag = true;
 	item.memberCardType = "PERSON";
 });
+console.log(JSON.stringify(body));
 
 $done({ body: JSON.stringify(body) });
 // prettier-ignore
