@@ -9,6 +9,22 @@
 		{
 			"config": "10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js, tag=百果园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/pagoda.png, enabled=true",
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/pagoda/pagoda.conf, tag=百果园获取token"
+		},
+		{
+			"config": "8 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png, enabled=true",
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/10010/10010.conf, tag=中国联通获取token"
+		},
+		{
+			"config": "9 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png, enabled=true",
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/10010/10010.conf, tag=中国联通获取token"
+		},
+		{
+			"config": "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js, tag=苏宁易购, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/suning.png, enabled=true",
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/suning/suning.conf, tag=苏宁易购获取token"
+		},
+		{
+			"config": "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js, tag=网易云音乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/neteasemusic.png, enabled=true",
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/neteasemusic/neteasemusic.conf, tag=网易云音乐获取token"
 		}
 	]
 }
