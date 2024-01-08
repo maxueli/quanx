@@ -2,7 +2,13 @@
 	"name": "maxueli",
 	"description": "自用",
 	"task": [
-		"10 0 * * * https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.js, tag=海底捞, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/haidilao.png, enabled=true",
-		"10 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=什么值得买, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.jpg, enabled=true"
+		{
+			"config": "10 0 * * * https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.js, tag=海底捞, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/haidilao.png, enabled=true",
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.conf, tag=海底捞获取token"
+		},
+		{
+			"config": "10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js, tag=海底捞, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/pagoda.png, enabled=true",
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx_script/main/pagoda/pagoda.conf, tag=百果园获取token"
+		}
 	]
 }
