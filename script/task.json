@@ -4,11 +4,11 @@
 	"task": [
 		{
 			"config": "10 0 * * * https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.js, tag=海底捞, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/haidilao.png, enabled=true",
-			"addons": "https://raw.githubusercontent.com/maxueli/quanx_script/main/haidilao/haidilao.conf, tag=海底捞获取token"
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/haidilao/haidilao.conf, tag=海底捞获取token"
 		},
 		{
 			"config": "10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js, tag=海底捞, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/pagoda.png, enabled=true",
-			"addons": "https://raw.githubusercontent.com/maxueli/quanx_script/main/pagoda/pagoda.conf, tag=百果园获取token"
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/pagoda/pagoda.conf, tag=百果园获取token"
 		}
 	]
 }
