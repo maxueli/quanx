@@ -15,10 +15,6 @@
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/10010/10010.conf, tag=中国联通获取token"
 		},
 		{
-			"config": "9 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png, enabled=true",
-			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/10010/10010.conf, tag=中国联通获取token"
-		},
-		{
 			"config": "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js, tag=苏宁易购, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/suning.png, enabled=true",
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/suning/suning.conf, tag=苏宁易购获取token"
 		},
@@ -39,7 +35,7 @@
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/yqsl/yqsl.conf, tag=元气森林获取token"
 		},
 		{
-			"config": "30 0 7 * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=什么值得买, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png, enabled=true",
+			"config": "30 0 7 * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=什么值得买, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/smzdm.png, enabled=true",
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/smzdm/smzdm.conf, tag=什么值得买获取token"
 		},
 		{
