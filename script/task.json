@@ -33,6 +33,10 @@
 		{
 			"config": "30 0 7 * * https://gist.githubusercontent.com/Raphael689/280c508bb785a36815d327e6b7633c0c/raw/dcc26c38976a18671fedffedb35d0a053f7193e9/tls.js, tag=特仑苏, img-url=https://raw.githubusercontent.com/Raphael689/RW/master/iCons/tls.png, enabled=true",
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/tls/tls.conf, tag=特仑苏获取token"
+		},
+		{
+			"config": "30 0 7 * * https://gist.githubusercontent.com/Raphael689/9ee95f1962459d8e85afaaf96c9b1e3c/raw/151ecb0879b42a01aded271988d03fd00fe74606/yqslhy.js, tag=元气森林, img-url=https://raw.githubusercontent.com/Raphael689/RW/master/iCons/yqsl.png, enabled=true",
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/yqsl/yqsl.conf, tag=元气森林获取token"
 		}
 	]
 }
