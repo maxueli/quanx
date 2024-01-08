@@ -37,6 +37,10 @@
 		{
 			"config": "30 0 7 * * https://gist.githubusercontent.com/Raphael689/9ee95f1962459d8e85afaaf96c9b1e3c/raw/151ecb0879b42a01aded271988d03fd00fe74606/yqslhy.js, tag=元气森林, img-url=https://raw.githubusercontent.com/Raphael689/RW/master/iCons/yqsl.png, enabled=true",
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/yqsl/yqsl.conf, tag=元气森林获取token"
+		},
+		{
+			"config": "30 0 7 * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=什么值得买, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png, enabled=true",
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/smzdm/smzdm.conf, tag=什么值得买获取token"
 		}
 	]
 }
