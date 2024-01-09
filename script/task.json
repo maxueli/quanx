@@ -23,7 +23,7 @@
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/neteasemusic/neteasemusic.conf, tag=网易云音乐获取token"
 		},
 		{
-			"config": "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png, enabled=true",
+			"config": "0 12 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/meituan.png, enabled=true",
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/meituan/meituan.conf, tag=美团获取token"
 		},
 		{
