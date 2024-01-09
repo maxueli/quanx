@@ -49,6 +49,14 @@
 		{
 			"config": "52 7 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/Hisense.js, tag=海信爱家, img-url=https://github.com/FoKit/Scripts/blob/main/images/hisense.png?raw=true, enabled=true",
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/hisense/hisense.conf, tag=海信爱家获取token"
+		},
+		{
+			"config": "28 0,8,12,18 * * * https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ddgy.js, tag=滴滴果园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/didi/didi.conf, tag=滴滴果园获取token"
+		},
+		{
+			"config": "15 8,10,12,18,20 * * * https://raw.githubusercontent.com/LinYuanovo/scripts/main/dygy.js, tag=抖音果园, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png, enabled=true",
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/douyin/douyin.conf, tag=抖音获取token"
 		}
 	]
 }
