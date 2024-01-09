@@ -45,6 +45,10 @@
 		{
 			"config": "0 9 * * * https://raw.githubusercontent.com/shufflewzc/X/main/Tasks/imaotai/imaotai.js, tag=i茅台自动预约, img-url=https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f4/18/aef41811-955e-e6b0-5d23-6763c2eef1ab/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/144x144.png, enabled=true",
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/imaotai/imaotai.conf, tag=i茅台获取token"
+		},
+		{
+			"config": "52 7 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/Hisense.js, tag=海信爱家, img-url=https://github.com/FoKit/Scripts/blob/main/images/hisense.png?raw=true, enabled=true",
+			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/hisense/hisense.conf, tag=海信爱家获取token"
 		}
 	]
 }
