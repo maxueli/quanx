@@ -51,7 +51,7 @@
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/hisense/hisense.conf, tag=海信爱家获取token"
 		},
 		{
-			"config": "5 0 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/Hisense.js, tag=饿了么, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true",
+			"config": "5 0 * * * https://raw.githubusercontent.com/maxueli/quanx/main/script/elem/elemSign.js, tag=饿了么, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true",
 			"addons": "https://raw.githubusercontent.com/maxueli/quanx/main/script/elem/elem.conf, tag=饿了么获取token"
 		}
 	]
