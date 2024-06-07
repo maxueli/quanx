@@ -1,0 +1,9 @@
+host, appstoreconnect.apple.com, Shawn
+host, iosapps-ssl.itunes.apple.com, Shawn
+host, itcmobile.itunes.apple.com, Shawn
+host-suffix, apps.apple.com, Shawn
+host-suffix, itunes.apple.com, Shawn
+host-suffix, itunes-apple.com.akadns.net, Shawn
+host-suffix, mzstatic.com, Shawn
+host, ppq.apple.com, Shawn
+
